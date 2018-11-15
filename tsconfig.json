@@ -1,0 +1,40 @@
+{
+  "include": [
+    "src/**/*.ts"
+  ],
+
+  "compilerOptions": {
+    "pretty": false,
+    "sourceMap": true,
+
+    "locale": "ko",
+    "module": "CommonJS",
+    "target": "es2017",
+
+    "rootDir": "./src",
+    "outDir": "./dest",
+
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "allowJs": true,
+
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "typeRoots": [
+      "node_modules/@types",
+      "types"
+    ]
+  }
+}
