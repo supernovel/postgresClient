@@ -20,7 +20,7 @@
   "dependencies": {
     "@sindresorhus/is": "^0.13.0",
     "JSONStream": "^1.3.5",
-    "checkobject": "github:supernovel/checkObject",
+    "checkObject": "github:supernovel/checkObject",
     "debug": "^4.1.0",
     "json-stringify-extended": "^2.0.0",
     "knex": "git+https://github.com/supernovel/knex.git",
