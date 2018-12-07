@@ -7,11 +7,11 @@
 ```
 ...
 
-const ClientConstructor = require('postgreClient');
+const ClientConstructor = require('postgreClient').Client;
 
 ...
 
-const Client = ClientConstructor(options);
+const Client = new ClientConstructor(options);
 
 ...
 
