@@ -1,5 +1,5 @@
 /*
-    FN  : PostgresDtabase.js
+    FN  : PostgresClient.js
     C   : 작성 날짜 미작성
     DS  : 
     N   :
